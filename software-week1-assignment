@@ -1,0 +1,144 @@
+MOSES DIING 
+Prompt Engineering Assignment: SDLC Exercises A–D
+Short, simple version. The AI responses are samples; swap in your own AI's answers if your teacher wants your own run.
+Exercise A: Explaining the SDLC
+Prompt 1: Zero-Shot
+Prompt:
+Explain the Software Development Life Cycle (SDLC).
+AI response:
+The SDLC is the set of steps a team follows to build software. The steps are planning, requirements, design, coding, testing, deployment and maintenance. Following them helps teams build good software on time and on budget.
+Summary: The AI gave a short, correct definition and listed the seven steps. The answer was accurate but plain. It did not suit any particular reader.
+Prompt 2: Role Prompting
+Prompt:
+You are a friendly teacher. Explain the SDLC to a 10-year-old. Use this format: one sentence saying what it is, then 7 numbered steps with one simple sentence each, using a Lego castle as the example. Keep it under 150 words.
+AI response:
+The SDLC is a step-by-step plan for building an app, just like building a Lego castle.
+Planning: Decide you want to build a castle.
+Requirements: Ask what the castle needs, like towers and a gate.
+Design: Draw a picture of the castle first.
+Coding: Snap the bricks together.
+Testing: Check that nothing wobbles or falls off.
+Deployment: Show the castle to everyone.
+Maintenance: Fix broken bricks and add new rooms later.
+Summary: The AI acted like a kind teacher and followed my format exactly. It explained each phase with the Lego example, which made it easy to picture. The answer was short and used no hard words.
+Compare
+More useful: Response 2, because it was easy to understand and in the format I asked for.
+What I changed: I added a role (teacher), an audience (a 10-year-old), a format (numbered steps) and a length limit.
+Effect: The role set the friendly tone, the audience made the words simple, and the format made the answer neat.
+Exercise B: Software Development Models
+Prompt
+Act as a software advisor. For each situation below, recommend a development model, say why it fits in one or two sentences, and give one limitation. Show the answer as a table.
+Stable, clearly defined requirements.
+A startup whose requirements change often because of user feedback.
+A large project with big technical and security risks.
+A project where testing and verification matter most.
+AI response
+Situation
+Model
+Why it fits
+One limitation
+1. Stable requirements
+Waterfall
+You know what to build, so you can follow a clear step-by-step plan.
+Hard to change once started.
+2. Changing requirements
+Agile (Scrum)
+Small, quick releases let you use feedback and change direction.
+Needs constant contact with users.
+3. Big risks
+Spiral
+It checks for risks again and again before spending lots of money.
+Costly and complicated.
+4. Testing is vital
+V-Model
+Every build step has a matching test step.
+Not flexible when things change.
+
+Reflection
+I learned that the best model depends on the project, not on which model is most popular. If the requirements are stable, a fixed plan like Waterfall works. If they change, Agile is better. If there are big risks, Spiral helps, and if testing is vital, the V-Model helps. Every model has a weakness, so choosing one is always a trade-off.
+Exercise C: Requirements Extraction
+Prompt
+You are a business analyst. Read this brief and list: (1) functional requirements, (2) non-functional requirements, (3) Must Have, (4) Should Have, (5) Nice to Have, and (6) questions that need answers. Keep each point to one short sentence and remember the owner has a small budget.
+Brief: A bookstore needs software to track books, quantities and prices; manage supplier payments; alert staff when stock is low; find best-selling books; let customers check availability online; and give clear records to a part-time assistant.
+AI response
+1. Functional requirements: Store book details and quantities. Track supplier payments. Alert staff when stock is low. Show best-sellers. Let customers check stock online. Print clear records.
+2. Non-functional requirements: Easy to learn. Low cost. Secure (only staff can edit). Fast searches. Regular backups.
+3. Must Have: Book and stock records, low-stock alerts, supplier payment tracking, clear records, easy to use, low cost.
+4. Should Have: Best-seller report, online availability check.
+5. Nice to Have: Barcode scanning, email alerts, book reservations, sales charts.
+6. Questions:
+How many books and staff are there?
+Does the shop already have a till system?
+Do "supplier payments" mean tracking bills or paying them?
+What is the budget, and who will host the system?
+Evaluate
+Done well: It covered every point in the brief, and its questions were useful.
+Missed or wrong: It made the online availability check only a Should Have, even though the owner asked for it. It also did not explain its choices.
+Prompt improvement: I would ask the AI to give one reason for each priority and to list its assumptions.
+Exercise D: Prompt Iteration Challenge
+Version 1
+Prompt:
+Give me a project plan for a study room booking app.
+AI response: Decide the idea, design the app, build it, test it, launch it and keep updating it. It should take about 3 to 6 months.
+What is missing: There are no details about the students, no deliverables or risks, no team or budget, and not all seven SDLC phases.
+Version 2
+Prompt:
+I am planning a mobile app for university students to book campus study rooms. Students can see free rooms, filter by size, book and cancel, and get reminders. The university has 15,000 students and 80 rooms. Make a project plan with phases and a timeline.
+What I changed: I added who the app is for, the main features, and the size of the university.
+Why: The AI had to guess too much in Version 1. Context helps it give a plan that fits.
+Version 3
+Prompt:
+You are a project manager. Plan a study room booking app for a university with 15,000 students and 80 rooms. Features: view rooms, filter, book, cancel, reminders, and an admin dashboard. The team is small and the budget is limited. Make a table of SDLC phases with time and deliverables, and list the main risks.
+What I changed: I added a role, the team and budget limits, a table format, deliverables and risks.
+Why: Version 2 was still unstructured and ignored risks. The risks had no fixes, and there were no team roles or budget yet.
+Version 4: Final Prompt
+You are a project manager. Plan a mobile app for university students to book campus study rooms (15,000 students, 80 rooms, small team, limited budget). Include: (1) all 7 SDLC phases (Planning, Requirements, Design, Implementation, Testing, Deployment, Maintenance); (2) a time estimate for each; (3) key deliverables; (4) project risks; (5) a fix for each risk; (6) team roles; and (7) a rough budget. Use tables and state your assumptions.
+AI response:
+Assumptions: a team of 5 and about 7 months of work.
+Phase
+Time
+Key deliverables
+1. Planning
+2 weeks
+Project goals, schedule, budget
+2. Requirements
+3 weeks
+Requirements list, user stories
+3. Design
+4 weeks
+Screen designs, database plan
+4. Implementation
+10 weeks
+Working app and admin dashboard
+5. Testing
+4 weeks
+Test results, bug fixes
+6. Deployment
+2 weeks
+App in the app stores, staff training
+7. Maintenance
+Ongoing
+Bug fixes and updates
+
+
+Risk
+Fix
+Plans keep changing
+Agree on priorities and approve changes
+Students don't use the app
+Ask students early and run a pilot
+Double bookings
+Test busy times carefully
+Money or time runs out
+Track weekly and keep spare budget
+
+Team: a project manager, a designer/analyst, two developers and a tester.
+Rough budget (about USD 73,000 to 111,000): salaries are the biggest part, then spare money for surprises, hosting and tools, testing, and app store fees.
+Final Reflection
+Yes, my prompt improved a lot. Version 1 gave a short, vague plan, and Version 4 gave a plan I could really use. The biggest changes were adding context, listing exactly what I wanted, and asking for tables.
+Overall Reflection
+What makes a prompt effective? It is clear and specific. It says the task, the context, who it is for, and the format.
+Most useful technique: Role prompting with an audience and format, because it changed a plain answer into one I could use. Improving the prompt step by step also helped a lot.
+Why is context important? The AI doesn't know my situation, so without context it guesses and gives generic answers.
+Why review AI answers? AI can make mistakes, guess numbers and miss things, as it did with the priorities in Exercise C. I am still responsible for the final work.
+How can AI help engineers across the SDLC? It can help draft plans, organise requirements, suggest designs, write and explain code, create tests, write deployment scripts and help fix problems later. The engineer always checks the results.
